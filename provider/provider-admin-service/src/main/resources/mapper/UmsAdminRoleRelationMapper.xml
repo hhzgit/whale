@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.finalbi.whale.provider.mapper.UmsAdminRoleRelationMapper">
+  <resultMap id="BaseResultMap" type="com.finalbi.whale.provider.domain.UmsAdminRoleRelation">
+    <!--@mbg.generated generated on Tue Nov 19 15:22:28 CST 2019.-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="admin_id" jdbcType="BIGINT" property="adminId" />
+    <result column="role_id" jdbcType="BIGINT" property="roleId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Tue Nov 19 15:22:28 CST 2019.-->
+    id, admin_id, role_id
+  </sql>
+</mapper>
